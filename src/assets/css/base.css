@@ -4,7 +4,22 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+.bg-cover {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.bg-cover  span {
+  background-color: #000;
+  padding: 20px;
+}
 .BMap_stdMpZoom {
   overflow: hidden;
   position: relative;

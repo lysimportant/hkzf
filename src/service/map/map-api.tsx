@@ -15,3 +15,19 @@ export const getMapAreaInfo = (name: string) => {
 export const getMapCity = (level = 1) => {
   return request_.get({ url: "area/city", params: { level } });
 };
+
+/**
+ * 获取地区房源的信息
+ * @param {String} - area 地区的ID
+ * */
+export const getAreaHouseInfo = (id: string) => {
+  return request_.get({ url: "/area/map", params: { id }, show: true });
+};
+
+/**
+ * 获取小区房源集合信息
+ * @param {String} - cityId 小区的ID
+ */
+export const getCommunityHouseData = (cityId: string) => {
+  return request_.get({ url: "/houses", params: { cityId } });
+};
