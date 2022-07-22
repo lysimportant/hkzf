@@ -1,0 +1,73 @@
+.cityContainer {
+  height: 100%;
+}
+.cityContainer header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #f4f4f4;
+  overflow: hidden;
+  z-index: 9999;
+}
+/* style={{textAlign: "center", width: "100%"}} */
+
+.center {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+}
+.cityContainer section {
+  height: calc(100vh - 44px);
+  position: relative;
+  top: 44px;
+  padding: 0 10px;
+}
+
+.city {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 15px;
+  height: 36px;
+  line-height: 36px;
+  color: #727370;
+}
+
+.name {
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  color: #000;
+  border-bottom: 1px solid #ccc;
+}
+.cityindexcontainer {
+  position: fixed;
+  right: 10px;
+  height: calc(100vh - 44px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.cityContainer section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -12px;
+}
+.cityContainer section ul li {
+  padding: 3px;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+.cityContainer section ul li.active {
+  text-align: center;
+  color: #fff;
+  background: #7ccab5;
+  border-radius: 50%;
+}

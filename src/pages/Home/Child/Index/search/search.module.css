@@ -1,0 +1,32 @@
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left span {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.left i {
+  font-size: 14px;
+}
+.left::after {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  margin-left: 5px;
+  border-right: 2px solid #ccc;
+}
+.center {
+  display: flex;
+  align-items: center;
+}
+.center i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.center span {
+  margin: 0 5px;
+}
+.right {
+}

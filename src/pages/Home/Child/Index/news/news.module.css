@@ -1,0 +1,31 @@
+.newContainer {
+  padding: 10px;
+  padding-bottom: 44px;
+}
+.newContainer > h2 {
+  font-size: 16px;
+}
+.newContainerItem {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.newContainerItem img {
+  width: 40%;
+  border-radius: 3px;
+}
+.newContainerItem .content {
+  padding: 0 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.newContainerItem .content h1 {
+  font-size: 16px;
+}
+.newContainerItem .content div {
+  display: flex;
+  justify-content: space-between;
+  color: #ccc;
+}

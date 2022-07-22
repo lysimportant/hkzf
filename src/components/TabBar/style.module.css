@@ -1,0 +1,33 @@
+.tarbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 44px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  user-select: none;
+  background-color: #fff;
+}
+
+.tarbaritem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 12px;
+}
+.icon {
+  font-size: 20px;
+}
+
+.tarbaritem span {
+  margin-top: 3px;
+  color: #333 !important;
+}
+
+.tarbar .active .tarbaritem span {
+  color: #7ccab5 !important;
+}
